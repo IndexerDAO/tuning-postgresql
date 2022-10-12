@@ -1,13 +1,21 @@
 ## Getting Started with PostgreSQL Performance Tuning
 
 ### Why bother?
-> PostgreSQL ships with a basic configuration tuned for wide compatibility rather than performance. Odds are good the default parameters are very undersized for your system. - [PostgreSQL Docs](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)
+> PostgreSQL ships with a basic configuration tuned for wide compatibility rather than performance. Odds are good the default parameters are very undersized for your system. 
+>
+> -[PostgreSQL Docs](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)
+
+<br>
 
 Add some more context here to ground importance as it relates to machines used by indexers vs normie consumer computers
+
+<br>
 
 #### What Existing Indexers Say?
 * Add a few quotes from existing indexers sharing their perspective(s) on the importance of PostgreSQL performance tuning
 * Lorem ipsum
+
+<br>
 
 ### Commonly Tuned Parameters
 
@@ -20,8 +28,12 @@ Add some more context here to ground importance as it relates to machines used b
 | [maintenance_work_mem](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-MAINTENANCE-WORK-MEM) | This determines the maximum amount of memory used for maintenance operations like VACUUM, CREATE INDEX, ALTER TABLE ADD FOREIGN KEY, and data-loading operations. | value of 1GB is a good start |
 | [max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | Determines the maximum number of concurrent connections to the database server.	| GREATEST(4 x CPU cores, 100) |
 
+<br>
+
 ### Next steps
 * Lorem ipsum
+
+<br>
 
 ### Resources
 * https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server
